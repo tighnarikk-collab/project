@@ -21,7 +21,7 @@ export default function Home() {
         </section>
 
         <footer className="footer">
-          <p>Copyright 2025 ®</p>
+          <p>Copyright 2026 ®</p>
           <p>All Rights Reserved</p>
         </footer>
       </main>
