@@ -30,9 +30,8 @@ export default function PersonalPresencePage() {
 
             {/* Title */}
             <h1 style={styles.title}>
-              <span style={styles.titleSparkle}>✦</span>
               <span style={styles.titleText}>Personal Presence Method</span>
-              <span style={styles.titleSparkle}>✦</span>
+              
             </h1>
 
             <p style={styles.bodyText}>
