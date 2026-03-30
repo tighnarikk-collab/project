@@ -66,7 +66,7 @@ export default function BullModePage() {
 
         <p style={styles.bodyText}>
           But today as a one-time add-on you can include <strong>BULL MODE</strong> for just{" "}
-          <strong>$59</strong>.
+          <strong>$17</strong>.
         </p>
 
         {/* Guarantee */}
