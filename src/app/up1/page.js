@@ -1,4 +1,6 @@
 "use client";
+import Script from "next/script";
+
 const glowKeyframes = `
   @keyframes shimmer {
     0%   { background-position: -200% center; }
@@ -59,7 +61,7 @@ export default function BullModePage() {
 
         {/* Price anchor */}
         <p style={styles.priceAnchor}>
-          💰 <strong>This program has previously been offered for $797 in a private setting.</strong>
+          💰 <strong>This program has previously been offered for $79 in a private setting.</strong>
         </p>
 
         <p style={styles.bodyText}>
@@ -78,7 +80,11 @@ export default function BullModePage() {
         <p style={styles.ctaHint}>👇</p>
         <p style={styles.ctaSubtext}>If you want to add this optional program, use the purchase button below.</p>
 
-        <p style={styles.ctaLabel}>ADD BULL MODE TODAY FOR $59</p>
+        <p style={styles.ctaLabel}>ADD BULL MODE TODAY FOR $17</p>
+
+        <div style={styles.hotmartWrap}>
+          <div id="hotmart-sales-funnel" style={styles.hotmartContainer}></div>
+        </div>
 
         <p style={styles.disclaimer}>
           This is an optional add-on purchase.
@@ -86,6 +92,16 @@ export default function BullModePage() {
           You will keep your main order either way.
         </p>
       </div>
+
+      <Script
+        src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"
+        strategy="afterInteractive"
+        onLoad={() => {
+          if (typeof window !== "undefined" && window.checkoutElements) {
+            window.checkoutElements.init("salesFunnel").mount("#hotmart-sales-funnel");
+          }
+        }}
+      />
     </div>
     </>
   );
@@ -231,6 +247,21 @@ const styles = {
     letterSpacing: "0.05em",
     marginBottom: "16px",
     textShadow: "0 0 10px rgba(212, 160, 23, 0.5), 0 0 22px rgba(212, 160, 23, 0.18)",
+  },
+  hotmartWrap: {
+    display: "flex",
+    justifyContent: "center",
+    marginBottom: "18px",
+  },
+  hotmartContainer: {
+    width: "100%",
+    maxWidth: "440px",
+    minHeight: "72px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: "16px",
+    boxShadow: "0 0 30px rgba(0, 255, 133, 0.28)",
   },
   disclaimer: {
     textAlign: "center",
