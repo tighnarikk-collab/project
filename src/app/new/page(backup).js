@@ -562,6 +562,83 @@ export default function NewPage() {
 
       </section>
 
+      {/* ── SEÇÃO 13 — GARANTIA ── */}
+      <section className="guarantee-section">
+
+        <img src="/garantia.webp" alt="Garantia 7 dias" className="guarantee-badge" />
+
+        <h2 className="guarantee-title">GARANTIA INCONDICIONAL DE 7 DIAS</h2>
+
+        <div className="guarantee-text">
+          <p>
+            Temos total confiança no <strong>Método Vela Perfeita</strong> e nos resultados que ele pode trazer
+            para você. <strong>Por isso, oferecemos uma garantia incondicional de 7 dias.</strong>
+          </p>
+          <p>
+            Se dentro desse período você sentir que o método não é para você,{" "}
+            <strong>basta um simples e-mail e devolvemos 100% do seu investimento,
+            sem perguntas e sem burocracia.</strong>
+          </p>
+          <p>
+            📌 <strong>Ou você aprende a fazer velas perfeitas gastando pouco, ou devolvemos seu dinheiro.</strong>{" "}
+            Simples assim!
+          </p>
+          <p>É simples e seguro, garantindo total tranquilidade para você!</p>
+        </div>
+
+        <a href="#" className="guarantee-btn">
+          SIM, quero fazer Velas Aromáticas!
+        </a>
+
+      </section>
+
+      {/* ── SEÇÃO 14 — COMPRA SEGURA / SUPORTE ── */}
+      <section className="support-section">
+        <h2 className="support-title">
+          Compra Segura e Suporte Completo Para Você!
+        </h2>
+
+        <img src="/paginacomplo.webp" alt="Suporte completo" className="support-img" />
+
+        <div className="support-text">
+          <p>
+            Sabemos como é importante ter confiança na hora de investir no seu aprendizado.{" "}
+            <strong>Por isso, o Método Vela Perfeita está hospedado na{" "}
+            <span className="support-hotmart">Hotmart</span>, a maior e mais segura plataforma de cursos do Brasil.</strong>
+          </p>
+          <p>📌 <strong>Além disso, você terá:</strong></p>
+          <ul className="support-list">
+            <li>✅ <strong>Suporte técnico no WhatsApp</strong> para tirar dúvidas e garantir que você consiga acompanhar tudo.</li>
+            <li>✅ <strong>Grupo exclusivo de avisos e atualizações</strong>, para sempre estar por dentro das novidades e aprimorar suas velas.</li>
+            <li>✅ <strong>Acesso imediato e vitalício</strong>, para aprender no seu tempo e rever as aulas sempre que quiser.</li>
+          </ul>
+          <p>🔥 <strong>Você compra com segurança, aprende com suporte e nunca fica sozinha na jornada!</strong></p>
+        </div>
+
+        <a href="#" className="support-btn">SIM, quero fazer Velas Aromáticas!</a>
+      </section>
+
+      {/* ── SEÇÃO 15 — CRIAR VELAS NUNCA FOI TÃO SIMPLES ── */}
+      <section className="simple-section">
+        <h2 className="simple-title">
+          Criar Velas Lindas e Perfumadas{" "}
+          <strong>Nunca Foi Tão Simples!</strong>
+        </h2>
+
+        <img src="/velasperfeitastas.webp" alt="Velas perfumadas" className="simple-img" />
+
+        <div className="simple-text">
+          <p>
+            Se você acha que fazer velas perfeitas exige experiência ou materiais caros, está enganada.
+          </p>
+          <p>
+            <strong>Com a técnica certa, você pode criar velas aromáticas incríveis usando o que já tem em casa – e ainda transformar isso em uma renda extra sem sair de casa!</strong>
+          </p>
+        </div>
+
+        <a href="#" className="simple-btn">SIM, quero fazer Velas Aromáticas!</a>
+      </section>
+
       <style>{`
         * {
           box-sizing: border-box;
@@ -1816,7 +1893,7 @@ export default function NewPage() {
 
         .offer-seals {
           width: 100%;
-          max-width: 280px;
+          max-width: 180px;
           height: auto;
           display: block;
           margin-top: 4px;
@@ -1871,7 +1948,323 @@ export default function NewPage() {
           }
 
           .offer-seals {
-            max-width: 320px;
+            max-width: 220px;
+          }
+        }
+        /* ── SEÇÃO 13 GARANTIA ── */
+        .guarantee-section {
+          width: 100%;
+          background: linear-gradient(160deg, #6b21a8 0%, #5b21b6 40%, #4c1d95 100%);
+          padding: 44px 22px 50px;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 22px;
+          text-align: center;
+        }
+
+        .guarantee-badge {
+          width: 180px;
+          height: auto;
+          display: block;
+          filter: drop-shadow(0 8px 24px rgba(0,0,0,0.4));
+        }
+
+        .guarantee-title {
+          font-size: 26px;
+          font-weight: 900;
+          color: #ffffff;
+          text-transform: uppercase;
+          line-height: 1.15;
+          margin: 0;
+          max-width: 360px;
+          letter-spacing: 0.5px;
+        }
+
+        .guarantee-text {
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+          max-width: 380px;
+          font-size: 15px;
+          line-height: 1.65;
+          color: #e9d8fd;
+        }
+
+        .guarantee-text p {
+          margin: 0;
+        }
+
+        .guarantee-text strong {
+          color: #ffffff;
+          font-weight: 700;
+        }
+
+        .guarantee-btn {
+          display: block;
+          width: 100%;
+          max-width: 360px;
+          background: linear-gradient(135deg, #22c55e, #16a34a);
+          color: #ffffff;
+          font-size: 18px;
+          font-weight: 800;
+          text-align: center;
+          text-decoration: none;
+          padding: 18px 24px;
+          border-radius: 50px;
+          cursor: pointer;
+          transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+          box-shadow: 0 4px 24px rgba(34,197,94,0.45), 0 0 0 0 rgba(34,197,94,0);
+          letter-spacing: 0.2px;
+          margin-top: 6px;
+        }
+
+        .guarantee-btn:hover {
+          transform: translateY(-2px) scale(1.02);
+          box-shadow: 0 8px 36px rgba(34,197,94,0.65), 0 0 18px rgba(34,197,94,0.3);
+          filter: brightness(1.08);
+        }
+
+        .guarantee-btn:active {
+          transform: translateY(0) scale(0.99);
+          filter: brightness(0.97);
+        }
+
+        @media (min-width: 768px) {
+          .guarantee-section {
+            padding: 70px 24px 80px;
+            gap: 28px;
+          }
+
+          .guarantee-badge {
+            width: 220px;
+          }
+
+          .guarantee-title {
+            font-size: 38px;
+            max-width: 700px;
+          }
+
+          .guarantee-text {
+            max-width: 660px;
+            font-size: 17px;
+            gap: 18px;
+          }
+
+          .guarantee-btn {
+            max-width: 460px;
+            font-size: 20px;
+            padding: 20px 32px;
+          }
+        }
+        /* ── SEÇÃO 14 SUPORTE ── */
+        .support-section {
+          width: 100%;
+          background: #ffffff;
+          padding: 44px 20px 52px;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 22px;
+          text-align: center;
+        }
+
+        .support-title {
+          font-size: 24px;
+          font-weight: 800;
+          color: #3a2a6e;
+          line-height: 1.2;
+          margin: 0;
+          max-width: 360px;
+        }
+
+        .support-img {
+          width: 100%;
+          max-width: 360px;
+          height: auto;
+          display: block;
+        }
+
+        .support-text {
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+          max-width: 380px;
+          font-size: 15px;
+          line-height: 1.65;
+          color: #2a2a2a;
+          text-align: center;
+        }
+
+        .support-text p { margin: 0; }
+
+        .support-text strong { font-weight: 700; color: #1a1a1a; }
+
+        .support-hotmart { color: #f97316; font-weight: 800; }
+
+        .support-list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          text-align: left;
+        }
+
+        .support-list li {
+          font-size: 15px;
+          line-height: 1.5;
+          color: #2a2a2a;
+        }
+
+        .support-btn {
+          display: block;
+          width: 100%;
+          max-width: 360px;
+          background: linear-gradient(135deg, #22c55e, #16a34a);
+          color: #ffffff;
+          font-size: 18px;
+          font-weight: 800;
+          text-align: center;
+          text-decoration: none;
+          padding: 18px 24px;
+          border-radius: 50px;
+          box-shadow: 0 4px 20px rgba(34,197,94,0.35);
+          transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+        }
+
+        .support-btn:hover {
+          transform: translateY(-2px) scale(1.02);
+          box-shadow: 0 8px 32px rgba(34,197,94,0.55);
+          filter: brightness(1.08);
+        }
+
+        /* ── SEÇÃO 15 SIMPLES ── */
+        .simple-section {
+          width: 100%;
+          background: linear-gradient(160deg, #7b2fbe 0%, #5a189a 45%, #3a0ca3 100%);
+          padding: 44px 20px 52px;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 22px;
+          text-align: center;
+        }
+
+        .simple-title {
+          font-size: 24px;
+          font-weight: 400;
+          color: #ffffff;
+          line-height: 1.2;
+          margin: 0;
+          max-width: 360px;
+        }
+
+        .simple-title strong {
+          font-weight: 900;
+          display: block;
+          margin-top: 2px;
+        }
+
+        .simple-img {
+          width: 100%;
+          max-width: 360px;
+          height: auto;
+          display: block;
+          border-radius: 10px;
+        }
+
+        .simple-text {
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+          max-width: 380px;
+          font-size: 15px;
+          line-height: 1.65;
+          color: #e9d8fd;
+        }
+
+        .simple-text p { margin: 0; }
+
+        .simple-text strong { color: #ffffff; font-weight: 700; }
+
+        .simple-btn {
+          display: block;
+          width: 100%;
+          max-width: 360px;
+          background: linear-gradient(135deg, #22c55e, #16a34a);
+          color: #ffffff;
+          font-size: 18px;
+          font-weight: 800;
+          text-align: center;
+          text-decoration: none;
+          padding: 18px 24px;
+          border-radius: 50px;
+          box-shadow: 0 4px 24px rgba(34,197,94,0.45);
+          transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+        }
+
+        .simple-btn:hover {
+          transform: translateY(-2px) scale(1.02);
+          box-shadow: 0 8px 36px rgba(34,197,94,0.65);
+          filter: brightness(1.08);
+        }
+
+        @media (min-width: 768px) {
+          .support-section {
+            padding: 60px 24px 70px;
+            gap: 28px;
+          }
+
+          .support-title {
+            font-size: 36px;
+            max-width: 660px;
+          }
+
+          .support-img {
+            max-width: 560px;
+          }
+
+          .support-text {
+            max-width: 660px;
+            font-size: 17px;
+          }
+
+          .support-list li {
+            font-size: 17px;
+          }
+
+          .support-btn {
+            max-width: 460px;
+            font-size: 20px;
+          }
+
+          .simple-section {
+            padding: 60px 24px 70px;
+            gap: 28px;
+          }
+
+          .simple-title {
+            font-size: 38px;
+            max-width: 700px;
+          }
+
+          .simple-img {
+            max-width: 520px;
+          }
+
+          .simple-text {
+            max-width: 660px;
+            font-size: 17px;
+          }
+
+          .simple-btn {
+            max-width: 460px;
+            font-size: 20px;
           }
         }
       `}</style>

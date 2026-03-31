@@ -592,6 +592,130 @@ export default function NewPage() {
 
       </section>
 
+      {/* ── SEÇÃO 14 — COMPRA SEGURA / SUPORTE ── */}
+      <section className="support-section">
+        <h2 className="support-title">
+          Compra Segura e Suporte Completo Para Você!
+        </h2>
+
+        <img src="/paginacomplo.webp" alt="Suporte completo" className="support-img" />
+
+        <div className="support-text">
+          <p>
+            Sabemos como é importante ter confiança na hora de investir no seu aprendizado.{" "}
+            <strong>Por isso, o Método Vela Perfeita está hospedado na{" "}
+            <span className="support-hotmart">Hotmart</span>, a maior e mais segura plataforma de cursos do Brasil.</strong>
+          </p>
+          <p>📌 <strong>Além disso, você terá:</strong></p>
+          <ul className="support-list">
+            <li>✅ <strong>Suporte técnico no WhatsApp</strong> para tirar dúvidas e garantir que você consiga acompanhar tudo.</li>
+            <li>✅ <strong>Grupo exclusivo de avisos e atualizações</strong>, para sempre estar por dentro das novidades e aprimorar suas velas.</li>
+            <li>✅ <strong>Acesso imediato e vitalício</strong>, para aprender no seu tempo e rever as aulas sempre que quiser.</li>
+          </ul>
+          <p>🔥 <strong>Você compra com segurança, aprende com suporte e nunca fica sozinha na jornada!</strong></p>
+        </div>
+
+        <a href="#" className="support-btn">SIM, quero fazer Velas Aromáticas!</a>
+      </section>
+
+      {/* ── SEÇÃO 15 — CRIAR VELAS NUNCA FOI TÃO SIMPLES ── */}
+      <section className="simple-section">
+        <h2 className="simple-title">
+          Criar Velas Lindas e Perfumadas{" "}
+          <strong>Nunca Foi Tão Simples!</strong>
+        </h2>
+
+        <img src="/velasperfeitastas.webp" alt="Velas perfumadas" className="simple-img" />
+
+        <div className="simple-text">
+          <p>
+            Se você acha que fazer velas perfeitas exige experiência ou materiais caros, está enganada.
+          </p>
+          <p>
+            <strong>Com a técnica certa, você pode criar velas aromáticas incríveis usando o que já tem em casa – e ainda transformar isso em uma renda extra sem sair de casa!</strong>
+          </p>
+        </div>
+
+        <a href="#" className="simple-btn">SIM, quero fazer Velas Aromáticas!</a>
+      </section>
+
+      {/* ── SEÇÃO 16 — PARA QUEM É INDICADO ── */}
+      <section className="forwhom-section">
+        <h2 className="forwhom-title">Para Quem o Método Vela Perfeita é indicado?</h2>
+
+        <div className="forwhom-grid">
+          <div className="forwhom-card">
+            <div className="forwhom-circle">
+              <img src="/vela1.webp" alt="Quem quer começar do zero" className="forwhom-img" />
+            </div>
+            <p className="forwhom-name">Quem quer começar do zero e nunca fez uma vela antes</p>
+            <p className="forwhom-desc">Se você sempre quis aprender, mas achava difícil ou caro, aqui você encontra um passo a passo simples que qualquer iniciante pode seguir.</p>
+          </div>
+
+          <div className="forwhom-card">
+            <div className="forwhom-circle">
+              <img src="/vela2.webp" alt="Renda extra" className="forwhom-img" />
+            </div>
+            <p className="forwhom-name">Quem busca uma renda extra fácil de produzir em casa</p>
+            <p className="forwhom-desc">Com poucas horas por semana, você pode transformar velas artesanais em uma fonte de renda, vendendo para amigos, familiares ou até lojas da sua cidade.</p>
+          </div>
+
+          <div className="forwhom-card">
+            <div className="forwhom-circle">
+              <img src="/vela3.webp" alt="Já tentou mas deu errado" className="forwhom-img" />
+            </div>
+            <p className="forwhom-name">Quem já tentou fazer velas, mas sempre deu errado</p>
+            <p className="forwhom-desc">Se suas velas racham, perdem o aroma rápido ou ficam com acabamento ruim, esse método elimina os erros antes mesmo de acontecerem.</p>
+          </div>
+
+          <div className="forwhom-card">
+            <div className="forwhom-circle">
+              <img src="/vela4.webp" alt="Ama velas personalizadas" className="forwhom-img" />
+            </div>
+            <p className="forwhom-name">Quem ama velas e quer criar versões personalizadas</p>
+            <p className="forwhom-desc">Se você adora velas aromáticas e quer produzir modelos únicos, com cores, formatos e fragrâncias personalizadas, esse curso vai te ensinar tudo!</p>
+          </div>
+        </div>
+
+        <a href="#" className="forwhom-btn">SIM, quero fazer Velas Aromáticas!</a>
+      </section>
+
+      {/* ── SEÇÃO 17 — QUEM SERÁ SUA MENTORA ── */}
+      <section className="mentor-section">
+        <img src="/velasmentoria.webp" alt="Laura Martins" className="mentor-img" />
+
+        <h2 className="mentor-title">Quem será a sua mentora?</h2>
+
+        <div className="mentor-text">
+          <p>Laura Martins é referência nacional em velas aromáticas, com mais de 8 anos de experiência.</p>
+          <p>Criadora do método Velas Perfeitas, ela já ajudou mais de 14.000 mulheres a transformar criatividade em renda.</p>
+          <p>Laura participou de eventos como o Encontro Nacional de Artesanato e ministra palestras sobre técnicas modernas de fabricação de velas.</p>
+          <p>Hoje, dedica-se a ensinar mulheres a dominar essa arte e aproveitar o crescimento do mercado de velas.</p>
+        </div>
+
+        <a href="#" className="mentor-btn">SIM, quero fazer Velas Aromáticas!</a>
+      </section>
+
+      {/* ── SEÇÃO 18 — DEPOIMENTOS REAIS ── */}
+      <section className="real-section">
+        <h2 className="real-title">Depoimento Reais de Alunas:</h2>
+
+        <div className="carousel-mobile2">
+          <div className="carousel-track2">
+            <img src="/depoimento1.webp" alt="Depoimento 1" className="carousel-img2" />
+            <img src="/depoimento2.webp" alt="Depoimento 2" className="carousel-img2" />
+            <img src="/depoimento3.webp" alt="Depoimento 3" className="carousel-img2" />
+            <img src="/depoimento4.webp" alt="Depoimento 4" className="carousel-img2" />
+            <img src="/depoimento1.webp" alt="Depoimento 1" className="carousel-img2" aria-hidden="true" />
+            <img src="/depoimento2.webp" alt="Depoimento 2" className="carousel-img2" aria-hidden="true" />
+            <img src="/depoimento3.webp" alt="Depoimento 3" className="carousel-img2" aria-hidden="true" />
+            <img src="/depoimento4.webp" alt="Depoimento 4" className="carousel-img2" aria-hidden="true" />
+          </div>
+        </div>
+
+        <a href="#" className="real-btn">SIM, quero fazer Velas Aromáticas!</a>
+      </section>
+
       <style>{`
         * {
           box-sizing: border-box;
@@ -2009,6 +2133,518 @@ export default function NewPage() {
             max-width: 460px;
             font-size: 20px;
             padding: 20px 32px;
+          }
+        }
+        /* ── SEÇÃO 14 SUPORTE ── */
+        .support-section {
+          width: 100%;
+          background: #ffffff;
+          padding: 44px 20px 52px;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 22px;
+          text-align: center;
+        }
+
+        .support-title {
+          font-size: 24px;
+          font-weight: 800;
+          color: #3a2a6e;
+          line-height: 1.2;
+          margin: 0;
+          max-width: 360px;
+        }
+
+        .support-img {
+          width: 100%;
+          max-width: 360px;
+          height: auto;
+          display: block;
+        }
+
+        .support-text {
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+          max-width: 380px;
+          font-size: 15px;
+          line-height: 1.65;
+          color: #2a2a2a;
+          text-align: center;
+        }
+
+        .support-text p { margin: 0; }
+
+        .support-text strong { font-weight: 700; color: #1a1a1a; }
+
+        .support-hotmart { color: #f97316; font-weight: 800; }
+
+        .support-list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          text-align: left;
+        }
+
+        .support-list li {
+          font-size: 15px;
+          line-height: 1.5;
+          color: #2a2a2a;
+        }
+
+        .support-btn {
+          display: block;
+          width: 100%;
+          max-width: 360px;
+          background: linear-gradient(135deg, #22c55e, #16a34a);
+          color: #ffffff;
+          font-size: 18px;
+          font-weight: 800;
+          text-align: center;
+          text-decoration: none;
+          padding: 18px 24px;
+          border-radius: 50px;
+          box-shadow: 0 4px 20px rgba(34,197,94,0.35);
+          transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+        }
+
+        .support-btn:hover {
+          transform: translateY(-2px) scale(1.02);
+          box-shadow: 0 8px 32px rgba(34,197,94,0.55);
+          filter: brightness(1.08);
+        }
+
+        /* ── SEÇÃO 15 SIMPLES ── */
+        .simple-section {
+          width: 100%;
+          background: linear-gradient(160deg, #7b2fbe 0%, #5a189a 45%, #3a0ca3 100%);
+          padding: 44px 20px 52px;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 22px;
+          text-align: center;
+        }
+
+        .simple-title {
+          font-size: 24px;
+          font-weight: 400;
+          color: #ffffff;
+          line-height: 1.2;
+          margin: 0;
+          max-width: 360px;
+        }
+
+        .simple-title strong {
+          font-weight: 900;
+          display: block;
+          margin-top: 2px;
+        }
+
+        .simple-img {
+          width: 100%;
+          max-width: 360px;
+          height: auto;
+          display: block;
+          border-radius: 10px;
+        }
+
+        .simple-text {
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+          max-width: 380px;
+          font-size: 15px;
+          line-height: 1.65;
+          color: #e9d8fd;
+        }
+
+        .simple-text p { margin: 0; }
+
+        .simple-text strong { color: #ffffff; font-weight: 700; }
+
+        .simple-btn {
+          display: block;
+          width: 100%;
+          max-width: 360px;
+          background: linear-gradient(135deg, #22c55e, #16a34a);
+          color: #ffffff;
+          font-size: 18px;
+          font-weight: 800;
+          text-align: center;
+          text-decoration: none;
+          padding: 18px 24px;
+          border-radius: 50px;
+          box-shadow: 0 4px 24px rgba(34,197,94,0.45);
+          transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+        }
+
+        .simple-btn:hover {
+          transform: translateY(-2px) scale(1.02);
+          box-shadow: 0 8px 36px rgba(34,197,94,0.65);
+          filter: brightness(1.08);
+        }
+
+        @media (min-width: 768px) {
+          .support-section {
+            padding: 60px 24px 70px;
+            gap: 28px;
+          }
+
+          .support-title {
+            font-size: 36px;
+            max-width: 660px;
+          }
+
+          .support-img {
+            max-width: 560px;
+          }
+
+          .support-text {
+            max-width: 660px;
+            font-size: 17px;
+          }
+
+          .support-list li {
+            font-size: 17px;
+          }
+
+          .support-btn {
+            max-width: 460px;
+            font-size: 20px;
+          }
+
+          .simple-section {
+            padding: 60px 24px 70px;
+            gap: 28px;
+          }
+
+          .simple-title {
+            font-size: 38px;
+            max-width: 700px;
+          }
+
+          .simple-img {
+            max-width: 520px;
+          }
+
+          .simple-text {
+            max-width: 660px;
+            font-size: 17px;
+          }
+
+          .simple-btn {
+            max-width: 460px;
+            font-size: 20px;
+            margin: 0 auto;
+          }
+        }
+        /* ── SEÇÃO 16 PARA QUEM ── */
+        .forwhom-section {
+          width: 100%;
+          background: linear-gradient(160deg, #6b21a8 0%, #5b21b6 40%, #4c1d95 100%);
+          padding: 44px 20px 52px;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 28px;
+          text-align: center;
+        }
+
+        .forwhom-title {
+          font-size: 22px;
+          font-weight: 800;
+          color: #ffffff;
+          line-height: 1.2;
+          margin: 0;
+          max-width: 360px;
+        }
+
+        .forwhom-grid {
+          display: flex;
+          flex-direction: column;
+          gap: 32px;
+          width: 100%;
+          max-width: 380px;
+        }
+
+        .forwhom-card {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 12px;
+        }
+
+        .forwhom-circle {
+          width: 160px;
+          height: 160px;
+          border-radius: 50%;
+          overflow: hidden;
+          flex-shrink: 0;
+          border: 3px solid rgba(255,255,255,0.25);
+        }
+
+        .forwhom-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+        }
+
+        .forwhom-name {
+          margin: 0;
+          font-size: 15px;
+          font-weight: 800;
+          color: #ffffff;
+          line-height: 1.3;
+        }
+
+        .forwhom-desc {
+          margin: 0;
+          font-size: 14px;
+          line-height: 1.6;
+          color: #ddd6fe;
+        }
+
+        .forwhom-btn {
+          display: block;
+          width: 100%;
+          max-width: 340px;
+          background: linear-gradient(135deg, #22c55e, #16a34a);
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: 800;
+          text-align: center;
+          text-decoration: none;
+          padding: 16px 20px;
+          border-radius: 50px;
+          box-shadow: 0 4px 20px rgba(34,197,94,0.4);
+          transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+        }
+
+        .forwhom-btn:hover {
+          transform: translateY(-2px) scale(1.02);
+          box-shadow: 0 8px 32px rgba(34,197,94,0.6);
+          filter: brightness(1.08);
+        }
+
+        /* ── SEÇÃO 17 MENTORA ── */
+        .mentor-section {
+          width: 100%;
+          background: #f9f9f9;
+          padding: 44px 20px 52px;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+          text-align: center;
+        }
+
+        .mentor-img {
+          width: 100%;
+          max-width: 360px;
+          height: auto;
+          display: block;
+          border-radius: 12px;
+        }
+
+        .mentor-title {
+          font-size: 22px;
+          font-weight: 800;
+          color: #3a2a6e;
+          margin: 0;
+          line-height: 1.2;
+        }
+
+        .mentor-text {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          max-width: 380px;
+          font-size: 15px;
+          line-height: 1.65;
+          color: #2a2a2a;
+        }
+
+        .mentor-text p { margin: 0; }
+
+        .mentor-btn {
+          display: block;
+          width: 100%;
+          max-width: 340px;
+          background: linear-gradient(135deg, #22c55e, #16a34a);
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: 800;
+          text-align: center;
+          text-decoration: none;
+          padding: 16px 20px;
+          border-radius: 50px;
+          box-shadow: 0 4px 20px rgba(34,197,94,0.4);
+          transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+        }
+
+        .mentor-btn:hover {
+          transform: translateY(-2px) scale(1.02);
+          box-shadow: 0 8px 32px rgba(34,197,94,0.6);
+          filter: brightness(1.08);
+        }
+
+        /* ── SEÇÃO 18 DEPOIMENTOS REAIS ── */
+        .real-section {
+          width: 100%;
+          background: #ffffff;
+          padding: 44px 0 52px;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 24px;
+          overflow: hidden;
+        }
+
+        .real-title {
+          font-size: 22px;
+          font-weight: 800;
+          color: #3a2a6e;
+          margin: 0;
+          padding: 0 20px;
+          text-align: center;
+        }
+
+        .carousel-mobile2 {
+          width: 100%;
+          overflow: hidden;
+        }
+
+        .carousel-track2 {
+          display: flex;
+          gap: 12px;
+          width: max-content;
+          animation: scrollCarousel2 18s linear infinite;
+          padding: 0 18px;
+        }
+
+        .carousel-track2:hover {
+          animation-play-state: paused;
+        }
+
+        .carousel-img2 {
+          width: 240px;
+          height: auto;
+          border-radius: 10px;
+          flex-shrink: 0;
+          display: block;
+          box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+        }
+
+        @keyframes scrollCarousel2 {
+          0%   { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+
+        .real-btn {
+          display: block;
+          width: calc(100% - 40px);
+          max-width: 340px;
+          background: linear-gradient(135deg, #22c55e, #16a34a);
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: 800;
+          text-align: center;
+          text-decoration: none;
+          padding: 16px 20px;
+          border-radius: 50px;
+          box-shadow: 0 4px 20px rgba(34,197,94,0.4);
+          transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+        }
+
+        .real-btn:hover {
+          transform: translateY(-2px) scale(1.02);
+          box-shadow: 0 8px 32px rgba(34,197,94,0.6);
+          filter: brightness(1.08);
+        }
+
+        @media (min-width: 768px) {
+          .forwhom-section {
+            padding: 60px 24px 70px;
+            gap: 36px;
+          }
+
+          .forwhom-title {
+            font-size: 32px;
+            max-width: 700px;
+          }
+
+          .forwhom-grid {
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+            max-width: 960px;
+            gap: 24px;
+          }
+
+          .forwhom-card {
+            flex: 1;
+            max-width: 220px;
+          }
+
+          .forwhom-circle {
+            width: 180px;
+            height: 180px;
+          }
+
+          .forwhom-btn {
+            max-width: 400px;
+            font-size: 18px;
+          }
+
+          .mentor-section {
+            padding: 60px 24px 70px;
+            gap: 24px;
+          }
+
+          .mentor-img {
+            max-width: 560px;
+          }
+
+          .mentor-title {
+            font-size: 30px;
+          }
+
+          .mentor-text {
+            max-width: 620px;
+            font-size: 17px;
+          }
+
+          .mentor-btn {
+            max-width: 400px;
+            font-size: 18px;
+          }
+
+          .real-section {
+            padding: 60px 0 70px;
+          }
+
+          .real-title {
+            font-size: 30px;
+          }
+
+          .carousel-mobile2 {
+            display: none;
+          }
+
+          .real-btn {
+            max-width: 400px;
+            font-size: 18px;
           }
         }
       `}</style>
