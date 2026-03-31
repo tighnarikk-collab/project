@@ -1384,10 +1384,6 @@ export default function NewPage() {
           padding: 0 18px;
         }
 
-        .carousel-track:hover {
-          animation-play-state: paused;
-        }
-
         .carousel-img {
           width: 240px;
           height: auto;
@@ -2606,10 +2602,6 @@ export default function NewPage() {
           padding: 0 18px;
         }
 
-        .carousel-track2:hover {
-          animation-play-state: paused;
-        }
-
         .carousel-img2 {
           width: 240px;
           height: auto;
@@ -2627,6 +2619,16 @@ export default function NewPage() {
 
         .slider-desktop2 {
           display: none;
+        }
+
+        @media (hover: hover) and (pointer: fine) {
+          .carousel-track:hover {
+            animation-play-state: paused;
+          }
+
+          .carousel-track2:hover {
+            animation-play-state: paused;
+          }
         }
 
         @keyframes scrollCarousel2 {
