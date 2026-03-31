@@ -96,12 +96,10 @@ export default function BullModePage() {
       <Script
         src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"
         strategy="afterInteractive"
-        onLoad={() => {
-          if (typeof window !== "undefined" && window.checkoutElements) {
-            window.checkoutElements.init("salesFunnel").mount("#hotmart-sales-funnel");
-          }
-        }}
       />
+      <Script id="hotmart-sales-funnel-init" strategy="afterInteractive">
+        {`checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel')`}
+      </Script>
     </div>
     </>
   );
