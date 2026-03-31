@@ -816,7 +816,7 @@ export default function NewPage() {
         .hero-title {
           margin: 0 0 24px;
           color: #2f2a70;
-          font-size: 26px;
+          font-size: 27px;
           line-height: 1.1;
           font-weight: 800;
           letter-spacing: -0.8px;
@@ -829,7 +829,7 @@ export default function NewPage() {
 
         .hero-subtext p {
           margin: 0;
-          font-size: 17px;
+          font-size: 18px;
           line-height: 1.35;
         }
 
@@ -874,7 +874,7 @@ export default function NewPage() {
           max-width: 420px;
           margin: 0 auto 28px;
           color: #242424;
-          font-size: 19px;
+          font-size: 20px;
           line-height: 1.15;
           letter-spacing: -0.3px;
         }
@@ -886,7 +886,7 @@ export default function NewPage() {
           gap: 6px 16px;
           padding-bottom: 2px;
           color: #6c6296;
-          font-size: 12px;
+          font-size: 13px;
           line-height: 1.25;
         }
 
@@ -900,7 +900,7 @@ export default function NewPage() {
 
         .benefit-check {
           color: #8b67d9;
-          font-size: 16px;
+          font-size: 17px;
           line-height: 1;
           font-weight: 700;
         }
@@ -964,7 +964,7 @@ export default function NewPage() {
         }
 
         .purple-title {
-          font-size: 22px;
+          font-size: 23px;
           font-weight: 400;
           line-height: 1.25;
           color: #ffffff;
@@ -991,7 +991,7 @@ export default function NewPage() {
           display: flex;
           flex-direction: column;
           gap: 16px;
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.55;
           color: #f0e6ff;
           max-width: 390px;
@@ -1044,7 +1044,7 @@ export default function NewPage() {
         }
 
         .problems-title {
-          font-size: 22px;
+          font-size: 23px;
           font-weight: 400;
           line-height: 1.25;
           color: #3a2a6e;
@@ -1076,7 +1076,7 @@ export default function NewPage() {
 
         .problem-heading {
           margin: 0;
-          font-size: 16px;
+          font-size: 17px;
           font-weight: 700;
           display: flex;
           align-items: center;
@@ -1091,7 +1091,7 @@ export default function NewPage() {
 
         .problem-desc {
           margin: 0;
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.55;
           color: #2a2a2a;
           font-weight: 400;
@@ -1137,7 +1137,7 @@ export default function NewPage() {
         }
 
         .solution-title {
-          font-size: 22px;
+          font-size: 23px;
           font-weight: 400;
           line-height: 1.25;
           color: #3a2a6e;
@@ -1168,7 +1168,7 @@ export default function NewPage() {
 
         .solution-img-caption {
           display: block;
-          font-size: 10px;
+          font-size: 11px;
           color: #888;
           text-align: right;
           margin-top: 4px;
@@ -1180,7 +1180,7 @@ export default function NewPage() {
           flex-direction: column;
           gap: 14px;
           max-width: 370px;
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.55;
           color: #2a2a2a;
         }
@@ -1190,7 +1190,7 @@ export default function NewPage() {
         }
 
         .solution-subtitle {
-          font-size: 15px;
+          font-size: 16px;
           color: #2a2a2a;
         }
 
@@ -1202,7 +1202,7 @@ export default function NewPage() {
           display: flex;
           flex-direction: column;
           gap: 4px;
-          font-size: 15px;
+          font-size: 16px;
           color: #2a2a2a;
         }
 
@@ -1245,7 +1245,7 @@ export default function NewPage() {
         }
 
         .life-title {
-          font-size: 24px;
+          font-size: 25px;
           font-weight: 400;
           line-height: 1.2;
           color: #ffffff;
@@ -1281,7 +1281,7 @@ export default function NewPage() {
           right: 0;
           background: rgba(80, 30, 160, 0.82);
           color: #ffffff;
-          font-size: 13px;
+          font-size: 14px;
           font-weight: 600;
           text-align: center;
           padding: 10px 12px;
@@ -1300,7 +1300,7 @@ export default function NewPage() {
         }
 
         .life-list li {
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.45;
           color: #ffffff;
           display: flex;
@@ -1311,7 +1311,7 @@ export default function NewPage() {
         .life-list li::before {
           content: "✔";
           color: #c084fc;
-          font-size: 15px;
+          font-size: 16px;
           flex-shrink: 0;
           margin-top: 1px;
         }
@@ -1353,7 +1353,7 @@ export default function NewPage() {
         }
 
         .testimonials-title {
-          font-size: 24px;
+          font-size: 26px;
           font-weight: 400;
           line-height: 1.2;
           color: #3a2a6e;
@@ -1484,7 +1484,7 @@ export default function NewPage() {
         }
 
         .modules-title {
-          font-size: 20px;
+          font-size: 21px;
           font-weight: 700;
           color: #3a2a6e;
           text-align: center;
@@ -1516,7 +1516,7 @@ export default function NewPage() {
 
         .module-name {
           margin: 0;
-          font-size: 14px;
+          font-size: 15px;
           color: #3a2a6e;
           text-align: left;
           line-height: 1.4;
@@ -1528,7 +1528,7 @@ export default function NewPage() {
           display: flex;
           flex-direction: column;
           gap: 4px;
-          font-size: 13px;
+          font-size: 14px;
           color: #2a2a2a;
           line-height: 1.5;
         }
@@ -1571,7 +1571,7 @@ export default function NewPage() {
         }
 
         .bonus-header {
-          font-size: 22px;
+          font-size: 23px;
           font-weight: 900;
           color: #3a2a6e;
           text-align: center;
@@ -1618,14 +1618,14 @@ export default function NewPage() {
 
         .bonus-title {
           margin: 0;
-          font-size: 17px;
+          font-size: 18px;
           color: #2a2a2a;
           line-height: 1.35;
         }
 
         .bonus-desc {
           margin: 0;
-          font-size: 14px;
+          font-size: 15px;
           color: #444;
           line-height: 1.6;
           text-align: justify;
@@ -1645,7 +1645,7 @@ export default function NewPage() {
         }
 
         .silvia-title {
-          font-size: 20px;
+          font-size: 21px;
           font-weight: 400;
           color: #ffffff;
           line-height: 1.3;
@@ -1669,7 +1669,7 @@ export default function NewPage() {
 
         .silvia-label {
           margin: 0;
-          font-size: 18px;
+          font-size: 19px;
           color: #f5c542;
           font-weight: 400;
         }
@@ -1684,7 +1684,7 @@ export default function NewPage() {
           flex-direction: column;
           gap: 10px;
           max-width: 380px;
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.6;
           color: #ffffff;
         }
@@ -1774,7 +1774,7 @@ export default function NewPage() {
         }
 
         .cert-title {
-          font-size: 24px;
+          font-size: 25px;
           font-weight: 900;
           color: #3a2a6e;
           text-transform: uppercase;
@@ -1806,7 +1806,7 @@ export default function NewPage() {
         }
 
         .professor-title {
-          font-size: 26px;
+          font-size: 27px;
           font-weight: 400;
           color: #ffffff;
           line-height: 1.2;
@@ -1832,7 +1832,7 @@ export default function NewPage() {
           flex-direction: column;
           gap: 16px;
           max-width: 380px;
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.6;
           color: #f0e6ff;
         }
@@ -1893,7 +1893,7 @@ export default function NewPage() {
         }
 
         .offer-title {
-          font-size: 24px;
+          font-size: 25px;
           font-weight: 800;
           color: #3a2a6e;
           line-height: 1.2;
@@ -1902,7 +1902,7 @@ export default function NewPage() {
         }
 
         .offer-subtitle {
-          font-size: 15px;
+          font-size: 16px;
           color: #333;
           line-height: 1.6;
           margin: 0;
@@ -1915,7 +1915,7 @@ export default function NewPage() {
         }
 
         .offer-urgency {
-          font-size: 16px;
+          font-size: 17px;
           color: #222;
           margin: 0;
           max-width: 360px;
@@ -1937,7 +1937,7 @@ export default function NewPage() {
         }
 
         .offer-price-installment {
-          font-size: 28px;
+          font-size: 29px;
           color: #22c55e;
           margin: 0;
           font-weight: 400;
@@ -1948,7 +1948,7 @@ export default function NewPage() {
         }
 
         .offer-price-value {
-          font-size: 60px;
+          font-size: 61px;
           font-weight: 900;
           color: #22c55e;
           margin: 0;
@@ -1956,7 +1956,7 @@ export default function NewPage() {
         }
 
         .offer-price-or {
-          font-size: 20px;
+          font-size: 21px;
           color: #333;
           margin: 4px 0 0;
         }
@@ -1973,7 +1973,7 @@ export default function NewPage() {
         }
 
         .offer-checklist-title {
-          font-size: 20px;
+          font-size: 21px;
           font-weight: 400;
           color: #3a2a6e;
           margin: 0 0 18px;
@@ -1995,7 +1995,7 @@ export default function NewPage() {
           gap: 12px;
           padding: 10px 0;
           border-bottom: 1px solid #f0eaf8;
-          font-size: 14px;
+          font-size: 15px;
           color: #2a2a2a;
           line-height: 1.4;
         }
@@ -2007,7 +2007,7 @@ export default function NewPage() {
         }
 
         .offer-cta-hint {
-          font-size: 14px;
+          font-size: 15px;
           color: #555;
           margin: 8px 0 0;
         }
@@ -2018,7 +2018,7 @@ export default function NewPage() {
           max-width: 380px;
           background: linear-gradient(135deg, #22c55e, #16a34a);
           color: #ffffff;
-          font-size: 18px;
+          font-size: 19px;
           font-weight: 800;
           text-align: center;
           text-decoration: none;
@@ -2122,7 +2122,7 @@ export default function NewPage() {
         }
 
         .guarantee-title {
-          font-size: 26px;
+          font-size: 27px;
           font-weight: 900;
           color: #ffffff;
           text-transform: uppercase;
@@ -2137,7 +2137,7 @@ export default function NewPage() {
           flex-direction: column;
           gap: 14px;
           max-width: 380px;
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.65;
           color: #e9d8fd;
         }
@@ -2157,7 +2157,7 @@ export default function NewPage() {
           max-width: 360px;
           background: linear-gradient(135deg, #22c55e, #16a34a);
           color: #ffffff;
-          font-size: 18px;
+          font-size: 19px;
           font-weight: 800;
           text-align: center;
           text-decoration: none;
@@ -2222,7 +2222,7 @@ export default function NewPage() {
         }
 
         .support-title {
-          font-size: 24px;
+          font-size: 25px;
           font-weight: 800;
           color: #3a2a6e;
           line-height: 1.2;
@@ -2242,7 +2242,7 @@ export default function NewPage() {
           flex-direction: column;
           gap: 14px;
           max-width: 380px;
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.65;
           color: #2a2a2a;
           text-align: center;
@@ -2265,7 +2265,7 @@ export default function NewPage() {
         }
 
         .support-list li {
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.5;
           color: #2a2a2a;
         }
@@ -2276,7 +2276,7 @@ export default function NewPage() {
           max-width: 360px;
           background: linear-gradient(135deg, #22c55e, #16a34a);
           color: #ffffff;
-          font-size: 18px;
+          font-size: 19px;
           font-weight: 800;
           text-align: center;
           text-decoration: none;
@@ -2306,7 +2306,7 @@ export default function NewPage() {
         }
 
         .simple-title {
-          font-size: 24px;
+          font-size: 25px;
           font-weight: 400;
           color: #ffffff;
           line-height: 1.2;
@@ -2333,7 +2333,7 @@ export default function NewPage() {
           flex-direction: column;
           gap: 14px;
           max-width: 380px;
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.65;
           color: #e9d8fd;
         }
@@ -2348,7 +2348,7 @@ export default function NewPage() {
           max-width: 360px;
           background: linear-gradient(135deg, #22c55e, #16a34a);
           color: #ffffff;
-          font-size: 18px;
+          font-size: 19px;
           font-weight: 800;
           text-align: center;
           text-decoration: none;
@@ -2432,7 +2432,7 @@ export default function NewPage() {
         }
 
         .forwhom-title {
-          font-size: 22px;
+          font-size: 23px;
           font-weight: 800;
           color: #ffffff;
           line-height: 1.2;
@@ -2473,7 +2473,7 @@ export default function NewPage() {
 
         .forwhom-name {
           margin: 0;
-          font-size: 15px;
+          font-size: 16px;
           font-weight: 800;
           color: #ffffff;
           line-height: 1.3;
@@ -2481,7 +2481,7 @@ export default function NewPage() {
 
         .forwhom-desc {
           margin: 0;
-          font-size: 14px;
+          font-size: 15px;
           line-height: 1.6;
           color: #ddd6fe;
         }
@@ -2492,7 +2492,7 @@ export default function NewPage() {
           max-width: 340px;
           background: linear-gradient(135deg, #22c55e, #16a34a);
           color: #ffffff;
-          font-size: 16px;
+          font-size: 17px;
           font-weight: 800;
           text-align: center;
           text-decoration: none;
@@ -2530,7 +2530,7 @@ export default function NewPage() {
         }
 
         .mentor-title {
-          font-size: 22px;
+          font-size: 23px;
           font-weight: 800;
           color: #3a2a6e;
           margin: 0;
@@ -2542,7 +2542,7 @@ export default function NewPage() {
           flex-direction: column;
           gap: 12px;
           max-width: 380px;
-          font-size: 15px;
+          font-size: 16px;
           line-height: 1.65;
           color: #2a2a2a;
         }
@@ -2555,7 +2555,7 @@ export default function NewPage() {
           max-width: 340px;
           background: linear-gradient(135deg, #22c55e, #16a34a);
           color: #ffffff;
-          font-size: 16px;
+          font-size: 17px;
           font-weight: 800;
           text-align: center;
           text-decoration: none;
@@ -2585,7 +2585,7 @@ export default function NewPage() {
         }
 
         .real-title {
-          font-size: 22px;
+          font-size: 24px;
           font-weight: 800;
           color: #3a2a6e;
           margin: 0;
@@ -2625,6 +2625,10 @@ export default function NewPage() {
           justify-content: center;
         }
 
+        .slider-desktop2 {
+          display: none;
+        }
+
         @keyframes scrollCarousel2 {
           0%   { transform: translateX(0); }
           100% { transform: translateX(-50%); }
@@ -2636,7 +2640,7 @@ export default function NewPage() {
           max-width: 340px;
           background: linear-gradient(135deg, #22c55e, #16a34a);
           color: #ffffff;
-          font-size: 16px;
+          font-size: 17px;
           font-weight: 800;
           text-align: center;
           text-decoration: none;
@@ -2722,6 +2726,10 @@ export default function NewPage() {
           }
 
           .slider-desktop2-wrap {
+            display: flex;
+          }
+
+          .slider-desktop2 {
             display: flex;
           }
 

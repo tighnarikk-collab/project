@@ -40,8 +40,7 @@ export default function SliderDesktop() {
   };
 
   return (
-    <div style={{
-      display: 'flex',
+    <div className="slider-desktop" style={{
       alignItems: 'center',
       gap: '12px',
       width: '100%',
