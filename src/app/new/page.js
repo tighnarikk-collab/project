@@ -1,4 +1,5 @@
 import SliderDesktop from './SliderDesktop';
+import SliderDesktop2 from './SliderDesktop2';
 
 export default function NewPage() {
   const benefits = [
@@ -713,7 +714,79 @@ export default function NewPage() {
           </div>
         </div>
 
+        <div className="slider-desktop2-wrap">
+          <SliderDesktop2 />
+        </div>
+
         <a href="#" className="real-btn">SIM, quero fazer Velas Aromáticas!</a>
+      </section>
+
+      {/* ── SEÇÃO 19 — REPLICA OFERTA ── */}
+      <section className="offer-section">
+
+        <h2 className="offer-title">Acesso Vitalício Só Para Quem Garantir Agora</h2>
+
+        <p className="offer-subtitle">
+          Diferente de outros cursos que cobram mensalidades, o <strong>Método Vela Perfeita</strong> oferece acesso
+          vitalício. Mas essa condição especial só está disponível até:{" "}
+          <strong className="offer-date">31/03/2026</strong>
+        </p>
+
+        <p className="offer-urgency">
+          Depois disso, as inscrições <strong>serão encerradas</strong> ou poderão{" "}
+          <strong>ter um valor maior.</strong>
+        </p>
+
+        <img src="/acesso.webp" alt="Acesso ao curso" className="offer-img" />
+
+        <div className="offer-price-block">
+          <p className="offer-price-installment">por apenas <strong>8x de</strong></p>
+          <p className="offer-price-value">R$8.08</p>
+          <p className="offer-price-or">ou <strong className="offer-price-cash">R$57,00 à vista</strong></p>
+        </div>
+
+        <div className="offer-checklist-wrap">
+          <h3 className="offer-checklist-title">Método Velas Perfeitas (completo)</h3>
+          <ul className="offer-checklist">
+            {[
+              "Acesso Imediato ao Curso em Video Velas Perfeitas 2.0",
+              "Apostilas de aprendizado",
+              "Grupo de Avisos no WhatsApp",
+              "Bônus 1: Curso de Sabonetes com Bases 100% Naturais",
+              "Bônus 2: Lista de Fornecedores",
+              "Bônus 3: Método Primeira Vela Perfeita",
+              "Bônus 4: Guia Prático: Como Usar Óleos Essenciais nas Velas",
+              "Bônus 5: Como Criar Cores Exclusivas",
+              "Bônus 6: Como Cuidar das Suas Velas Artesanais",
+              "Bônus 7: Lista de Materiais para Começar",
+              "Bônus 8: Robô de Precificação",
+              "Bônus 9: 50 Etiquetas e Rótulos",
+              "Bônus 10: 90 Conteúdos do Instagram e Cronograma Infalível para Crescer o Perfil",
+              "Bônus 11: Blend de Ceras",
+              "Bônus 12: Fotografia Perfeita",
+              "Bônus 13: Método CAV de Vendas",
+              "Garantia de 7 Dias",
+            ].map((item) => (
+              <li key={`r-${item}`} className="offer-check-item">
+                <span className="offer-check-icon">
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="1" y="1" width="20" height="20" rx="4" stroke="#3a2a6e" strokeWidth="2"/>
+                    <path d="M5.5 11.5L9 15L16.5 7.5" stroke="#3a2a6e" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <p className="offer-cta-hint">Aperte no botão verde para fazer sua inscrição</p>
+        <a href="#" className="offer-btn">
+          SIM, quero fazer Velas Aromáticas!
+        </a>
+
+        <img src="/dadosprotegidos.webp" alt="Compra segura - Hotmart" className="offer-seals" />
+
       </section>
 
       <style>{`
@@ -2383,8 +2456,8 @@ export default function NewPage() {
         }
 
         .forwhom-circle {
-          width: 160px;
-          height: 160px;
+          width: 220px;
+          height: 220px;
           border-radius: 50%;
           overflow: hidden;
           flex-shrink: 0;
@@ -2546,6 +2619,12 @@ export default function NewPage() {
           box-shadow: 0 2px 12px rgba(0,0,0,0.10);
         }
 
+        .slider-desktop2-wrap {
+          display: none;
+          width: 100%;
+          justify-content: center;
+        }
+
         @keyframes scrollCarousel2 {
           0%   { transform: translateX(0); }
           100% { transform: translateX(-50%); }
@@ -2598,8 +2677,8 @@ export default function NewPage() {
           }
 
           .forwhom-circle {
-            width: 180px;
-            height: 180px;
+            width: 240px;
+            height: 240px;
           }
 
           .forwhom-btn {
@@ -2640,6 +2719,10 @@ export default function NewPage() {
 
           .carousel-mobile2 {
             display: none;
+          }
+
+          .slider-desktop2-wrap {
+            display: flex;
           }
 
           .real-btn {

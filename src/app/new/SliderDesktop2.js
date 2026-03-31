@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function SliderDesktop() {
+export default function SliderDesktop2() {
   const [current, setCurrent] = useState(0);
   const total = 4;
   const visible = 2;
